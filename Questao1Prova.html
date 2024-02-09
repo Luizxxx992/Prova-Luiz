@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <!--Configuração do Teclado -->
+    <meta charset="UTF-8">
+    <!--Função para deixar a tela respansiva-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Função para referenciar o arquivo css-->
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora do valor do carro</h1>
+      <form>
+        <p>Digite o valor do carro</p>
+        <div>
+<!--Função  do tipo numero para aparecer a caixa para o usuario inserir o peso -->
+          <input id="valor" type="number"/>
+          <span></span>
+        </div>
+        <div>
+          <p>Digite a opçaõ de pagamento</p>
+          <input id="pagamento" type="number" required="true"  />
+        </div>
+        <div>
+          <input id="btnCalcular" class="botao-calcular" type="button" value="Calcular"/>
+        </div>
+      </form>
+      <div id="resultado"></div>
+      <!--Função com o link do arquivo.js para o botões e resultados poderem funcionar-->
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
